@@ -208,3 +208,6 @@ __marimo__/
 
 # Word Document Files
 *.docx
+
+# Vscode Settings
+.vscode
