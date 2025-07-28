@@ -14,10 +14,10 @@ Simple assistant that responds in the terminal via GPT
 “Just works” version. Command-line or web-based interface.
 
 Core Features:
-- Text input/output (basic chatbot style)
-- Integrate OpenAI’s API (ChatGPT-like responses)
+- Text input/output (basic chatbot style) - complete(console)
+- Integrate OpenAI’s API (ChatGPT-like responses) - complete(connected to gpt3.5-turbo)
 - Handle basic commands:
-- Search the web
+- Search the web - half complete (added an api for managing web searches, need to add parsing of data (can only check todays news currently))
 - Get the weather
 - Fetch calendar events (Google Calendar)
 - To-do list (stored locally or in a file)
