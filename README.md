@@ -17,8 +17,8 @@ Core Features:
 - Text input/output (basic chatbot style) - complete(console)
 - Integrate OpenAI’s API (ChatGPT-like responses) - complete(connected to gpt3.5-turbo)
 - Handle basic commands:
-- Search the web - half complete (added an api for managing web searches, need to add parsing of data (can only check todays news currently))
-- Get the weather
+- Search the web - complete (if detects needed websearch, looks up inquiry on google and parses data)
+- Get the weather - 
 - Fetch calendar events (Google Calendar)
 - To-do list (stored locally or in a file)
 ---

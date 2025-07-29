@@ -10,7 +10,7 @@ def main():
 
         if needs_web_search(user_input):
             print("Assistant: Let me check online sources...\n")
-            search_results = web_search("today's news")
+            search_results = web_search(user_input)
             response = ask_openai(f"Summarize the following news:\n{search_results}")
         else:
             response = ask_openai(user_input)

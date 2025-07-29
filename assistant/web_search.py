@@ -16,7 +16,7 @@ def web_search(query):
     results = search.get_dict()
     snippets = []
 
-    for result in results.get("organic_results", [])[:5]:
+    for result in results.get("organic_results", [])[:7]:
         title = result.get("title", "")
         snippet = result.get("snippet", "")
         snippets.append(f"{title}: {snippet}")
